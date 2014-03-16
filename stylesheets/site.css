@@ -1,0 +1,18 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	background-image: url(../images/bgimage.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	background-size: cover;
+	height:100%;
+
+}
+
+html, body{
+	height:100%;
+}
