@@ -10,9 +10,41 @@
 	background-position: top left;
 	background-size: cover;
 	height:100%;
+	background-color:transparent;
 
 }
 
 html, body{
 	height:100%;
+}
+
+#jumbotron{
+	background: black;
+	color: #a66530;
+	font-variant: small-caps;
+	margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+    text-align: center;
+}
+
+#jumbotron p{
+	color: #fff;
+}
+
+a:link {
+	color: #fff;
+	text-decoration:none;
+}
+
+#outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#inner {
+    display: table-cell;
+    vertical-align: middle;
 }
